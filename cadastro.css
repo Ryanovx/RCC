@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(imagem/fundo.jpg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.titulo_container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.titulo_container img{
+    height: 100px;
+}
+
+.leftaside_container{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.leftaside_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.leftaside_content > a{
+    text-decoration: none;
+    height: 25px;
+    color: rgb(31, 36, 39);
+    
+}
+
+.leftaside_content > a:hover{
+    border-bottom: 1px solid black;
+}
+
+.activated{
+    border-bottom: 1px solid black;
+}
+
+.main_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.conteudo_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo_content > img{
+    height: 365px;
+}
+
+.publi_container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.publi_content{
+    display: flex;
+    flex-direction: column;
+}
+
+.publi_content > img{
+    height: 90px;
+}
+
+.footer_container{
+    width: 100%;
+}
+
+.footer_container > img{
+    width: 100%;
+    height: 200px;
+}
+
+/*Cadastro de professores e alunos*/
+
+.conteudo_container{
+    height: auto;
+    width: 900px;
+    padding: 20px;
+    background-color: white;
+}
+
+.conteudo_content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.conteudo_content > h2{
+    font-size: 2rem;
+}
+
+h1{
+    color: rgb(209, 124, 14);
+    font-family: 'Pixo Reto SP', sans-serif;
+    font-size: 65px;                                            
+}
+
+body{
+    background-color: #513D7A;
+    font-family: 'Arimo', sans-serif;
+    color:aliceblue;
+    margin: 00px;
+}
+
+.logo{
+    background-color: #350C52;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.navcontainer{
+    width: 100%;
+    background-color: #350C52;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navlogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navlogo img{
+    width: 200px;
+    height: 200px;
+}
+.navlinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+
+.navlinks a:hover{
+	transition: .4s ease-in-out;
+    opacity: 0.2;
+	
+}
+
+a{
+	background: #6A5ACD; 
+    border-radius: 6px;  
+	padding: 15px; 
+	cursor: pointer; 
+	color: #fff;
+	border: none; 
+	font-size: 16px;
+	text-decoration: none;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+	gap:50px;
+	padding: 10px;
+
+}
+
+
+form input[type=text]{
+	width:100%;
+	height:5vh;
+	transition-duration: 1.2s;
+	border-radius: 60px;
+	border: none;
+	padding: 16px;
+	box-sizing: border-box;
+}
+
+
+form input[type=text]:focus{
+	border: none;
+	border: 1px solid white;
+	outline: none;
+	background-color: #A599B9;
+	
+	
+}
+
+form input[type=date]{
+	width:90wv;
+	height:5vh;
+	transition-duration: 1.2s;
+	border-radius: 60px;
+	border: none;
+	padding: 16px;
+	box-sizing: border-box;
+}
+
+
+form input[type=date]:focus{
+	border: none;
+	border: 1px solid white;
+	outline: none;
+	background-color: #A599B9;
+	
+	
+}
+
+
+form input[type=reset]{
+	width:90wv;
+	height:5vh;
+	transition-duration: 1.2s;
+	border-radius: 60px;
+	border: none;
+	padding: 16px;
+	box-sizing: border-box;
+}
+
+form input[type=reset]:focus{
+	border: none;
+	border: 1px solid white;
+	outline: none;
+	background-color: #A599B9;
+}
+
+
+form input[type=submit]{
+	width:90wv;
+	height:5vh;
+	transition-duration: 1.2s;
+	border-radius: 60px;
+	border: none;
+	padding: 16px;
+	box-sizing: border-box;
+}
+
+form input[type=submit]:focus{
+	border: none;
+	border: 1px solid white;
+	outline: none;
+	background-color: #A599B9;
+}
