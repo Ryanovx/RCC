@@ -1,0 +1,191 @@
+body {
+	margin: 0;
+	overflow-x: hidden;
+	
+   
+}
+
+.header {
+	background: linear-gradient(180deg, rgba(2,0,36,0) 50%, rgba(255,255,255,1) 100%),url("imagem/fundo4.png");
+	background-position:bottom;
+	background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap:80px;
+
+}
+.nav a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+    color:FireBrick;
+    transition-duration: 0.3s;
+ 
+}
+.nav a:hover{
+    box-shadow: inset 0px -1px 0px white;
+    cursor: pointer;
+}
+
+
+.searchcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input[type=text]{
+    height: 70px;
+    background-color: rgba(70, 70, 70, 0.633);
+    width: 300px;
+    border-radius: 0px 15px 15px 0px;
+    border: none;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    border-radius: 15px 0px 0px 15px;
+    background-color: rgba(70, 70, 70, 0.633);
+    padding: 0px 10px;
+	
+}
+.search .material-symbols-outlined{
+    font-size:30px;
+}
+a{
+	text-decoration:none;
+}
+.imagem {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+	flex-wrap: wrap;
+	padding: 70px 0px;
+    
+}
+.imagem a{
+	background-image: url("imagem/finger.jpg");
+	background-size:cover; 
+	background-position:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    padding:30px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 23px 23px 0px 0px;
+    font-size: 35px;
+    color:512810;
+    margin: 0;
+    width: 300px;
+    height: 200px;
+    border-top: 2px solid firebrick;
+    border-left: 2px solid firebrick;
+    border-right: 2px solid firebrick;
+}
+
+
+.imagem a.frio{
+	background-image: url("imagem/inverno.jpg");
+	background-size:cover; 
+	background-position:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    padding:30px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 23px 23px 0px 0px;
+    font-size: 35px;
+    color:#512810;
+    margin: 0;
+    width: 300px;
+    height: 200px;
+    border-top: 2px solid firebrick;
+    border-left: 2px solid firebrick;
+    border-right: 2px solid firebrick;
+
+}
+
+.imagem .material-symbols-outlined {
+    font-size:70px;
+}
+
+
+.containerimagem {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.desc{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	width: 300px;
+	padding:5px 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+    color:FireBrick;
+    transition-duration: 0.3s;
+    border: 2px solid firebrick;
+
+}
+.desc:hover{
+    background-color: rgb(209, 60, 60);
+    color: white;
+    cursor: pointer;
+}
+h1{
+	display: flex;
+    align-items: center;
+    justify-content: flex-start;
+	flex-direction:column;
+	height:100%;
+	padding:50px;
+}
+
+.logorcc{
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+	width:100%;
+	}
+
+.logorcc img{
+width: 30vw;
+height:30vh;
+padding-top: 23%;
+}
+
+p{
+	font-family: 'Pixo Reto SP', sans-serif;
+	padding: 15px;
+	border-radius:30px;
+	font-size:200%;
+	margin:0%;
+
+}
+
+.setinha img{
+	right:7%;
+	position:absolute;
+	width:15vw;
+	height:15vh;
+	top:50%;
+}

@@ -1,0 +1,96 @@
+h1{
+    color: rgb(209, 124, 14);
+    font-family: 'Pixo Reto SP', sans-serif;
+    font-size: 65px;                                            
+}
+
+body{
+    background-color: #513D7A;
+    font-family: 'Arimo', sans-serif;
+    color:aliceblue;
+    margin: 00px;
+}
+
+.logo{
+    background-color: #350C52;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.navcontainer{
+    width: 100%;
+    background-color: #350C52;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navlogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navlogo img{
+    width: 200px;
+    height: 200px;
+}
+.navlinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+
+.navlinks a:hover{
+	transition: .4s ease-in-out;
+    opacity: 0.2;
+	
+}
+
+
+a{
+	background: #6A5ACD; 
+    border-radius: 6px;  
+	padding: 15px; 
+	cursor: pointer; 
+	color: #fff;
+	border: none; 
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.diaum{
+	color: E3DAEA(209, 124, 14);
+    font-family: 'Creepster', sans-serif;
+    font-size: 55px;                                            
+}
+
+.diaum img{
+	width: 600px;
+    height: 450px;
+	border-radius:15px;
+}
+
+.miniramp{
+	font-family: 'Creepster', sans-serif;
+	font-size: 25px;
+}
+
+.diadois{
+	color: E3DAEA(209, 124, 14);
+    font-family: 'Creepster', sans-serif;
+    font-size: 55px;
+	text-align: center;
+	border-top: 20px;
+}
+
+.diadois img{
+	width: 600px;
+    height: 450px;
+	border-radius: 20px;
+}
+
+.caixote{
+	font-family: 'Creepster', sans-serif;
+	font-size: 25px;
+}
