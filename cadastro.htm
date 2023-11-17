@@ -1,27 +1,31 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-    <head><title>RYANO CONTEST CREW</title>
-    <link rel="stylesheet" href="cadastro.css"/>
+
+<head>
+    <title>RYANO CONTEST CREW</title>
+    <link rel="stylesheet" href="cadastro.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Arimo:wght@600&display=swap" rel="stylesheet">
-<link href="https://fonts.cdnfonts.com/css/pixo-reto-sp" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Creepster&family=Inconsolata:wght@500&display=swap" rel="stylesheet">
-                
-    </head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/pixo-reto-sp" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Inconsolata:wght@500&display=swap"
+        rel="stylesheet">
+
+</head>
+
 <body>
- 
-   <div class="navcontainer">
+
+    <div class="navcontainer">
 
         <div class="navlinks">
             <a href="index.htm">INSCRIÇÕES RCC</a>
-			<a href="cadastro.htm"> CADASTRO </a>
-            
+            <a href="cadastro.htm"> CADASTRO </a>
+
         </div>
 
         <div class="navlogo">
@@ -36,42 +40,47 @@
 
     </div>
 
- 
- <form action="cad_prof.php" method="post">
-                          
-                                <h2>Cadastro</h2>
 
-                                <div class="field_input">
-                                    <p>Nome:</p>
-                                    <input type="text" name="nome" placeholder="Digite seu nome">
-                                </div>
 
-                                <div class="field_input">
-                                    <p>Telefone:</p>
-                                    <input type="text" name="fone" placeholder="Digite seu telefone">
-                                </div>
+    <div class="container">
+        <form action="cad_prof.php" method="post">
 
-                                <div class="field_input">
-                                    <p>Sexo:</p>
-                                    <input type="radio" name="sexo" value="fem">Feminino
-                                    <input type="radio" name="sexo" value="masc">Masculino
-                                </div>
+            <h2>Cadastro</h2>
 
-                                <div class="field_input">
-                                    <p>Data de nascimento:</p>
-                                    <input type="date" name="dn" placeholder="Ano-mês-dia">
-                                </div>
+            <div class="field_input">
+                <p>Nome:</p>
+                <input type="text" name="nome" placeholder="Digite seu nome">
+            </div>
 
-                                <div class="field_input">
-                                    <p>CPF:</p>
-                                    <input type="text" name="cpf" placeholder="Digite seu CPF">
-                                </div>
+            <div class="field_input">
+                <p>Telefone:</p>
+                <input type="text" name="fone" placeholder="Digite seu telefone">
+            </div>
 
-                                <div class="btn">
-                                    <input type="submit" value="Cadastrar">
-                                    <input type="reset" value="Limpar">
-                                </div>
-                            
-                        </form>
-						</body>
-						</html>
+            <div class="field_input">
+                <p>Sexo:</p>
+                <input type="radio" name="sexo" value="fem">Feminino
+                <input type="radio" name="sexo" value="masc">Masculino
+            </div>
+
+            <div class="field_input">
+                <p>Data de nascimento:</p>
+                <input type="date" name="dn" placeholder="Ano-mês-dia">
+            </div>
+
+            <div class="field_input">
+                <p>CPF:</p>
+                <input type="text" name="cpf" placeholder="Digite seu CPF">
+            </div>
+
+            <div class="btn">
+                <input type="submit" value="Cadastrar">
+                <input type="reset" value="Limpar">
+            </div>
+
+        </form>
+    </div>
+
+</body>
+
+</html>

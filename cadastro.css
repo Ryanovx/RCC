@@ -5,144 +5,34 @@
 }
 
 body{
-    background-image: url(imagem/fundo.jpg);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(imagem/fundocadastro.jpg);
+    font-family: 'Arimo', sans-serif;
+    color:aliceblue;
 }
 
 .container{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-}
-
-.titulo_container{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-.titulo_container img{
-    height: 100px;
-}
-
-.leftaside_container{
-    background-color: aliceblue;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    padding: 10px;
-    font-size: 17px;
-}
-
-.leftaside_content{
-    display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 25px;
+    padding: 15vh;
 }
 
-.leftaside_content > a{
-    text-decoration: none;
-    height: 25px;
-    color: rgb(31, 36, 39);
-    
-}
 
-.leftaside_content > a:hover{
-    border-bottom: 1px solid black;
-}
-
-.activated{
-    border-bottom: 1px solid black;
-}
-
-.main_content{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
-}
-
-.conteudo_content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.conteudo_content > img{
-    height: 365px;
-}
-
-.publi_container{
-    display: flex;
-    justify-content: flex-end;
-}
-
-.publi_content{
-    display: flex;
-    flex-direction: column;
-}
-
-.publi_content > img{
-    height: 90px;
-}
-
-.footer_container{
-    width: 100%;
-}
-
-.footer_container > img{
-    width: 100%;
-    height: 200px;
-}
-
-/*Cadastro de professores e alunos*/
-
-.conteudo_container{
-    height: auto;
-    width: 900px;
-    padding: 20px;
-    background-color: white;
-}
-
-.conteudo_content{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.conteudo_content > h2{
-    font-size: 2rem;
-}
-
-h1{
-    color: rgb(209, 124, 14);
-    font-family: 'Pixo Reto SP', sans-serif;
-    font-size: 65px;                                            
-}
-
-body{
-    background-color: #513D7A;
-    font-family: 'Arimo', sans-serif;
-    color:aliceblue;
-    margin: 00px;
-}
 
 .logo{
-    background-color: #350C52;
+    background-color: #05250a;
     width: 100%;
     display: flex;
     justify-content: center;
 }
 .navcontainer{
     width: 100%;
-    background-color: #350C52;
+    background-color: #07290c;
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100px;
 }
 .navlogo{
     display: flex;
@@ -150,8 +40,9 @@ body{
     justify-content: center;
 }
 .navlogo img{
-    width: 200px;
-    height: 200px;
+    width: 20vw;
+    height: 20vh;
+    margin-top: 7vh;
 }
 .navlinks{
     display: flex;
@@ -163,19 +54,20 @@ body{
 
 .navlinks a:hover{
 	transition: .4s ease-in-out;
-    opacity: 0.2;
-	
+    box-shadow: inset 0px -3px 0px 0px rgb(0, 168, 0);
+    color: rgb(0, 168, 0);
 }
 
 a{
-	background: #6A5ACD; 
-    border-radius: 6px;  
 	padding: 15px; 
 	cursor: pointer; 
 	color: #fff;
-	border: none; 
 	font-size: 16px;
 	text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
 }
 
 form {
@@ -183,8 +75,11 @@ form {
     align-items: center;
     justify-content: center;
     flex-direction:column;
-	gap:50px;
+	gap:15px;
 	padding: 10px;
+    width: 50%;
+    background-color: rgba(175, 175, 175, 0.507);
+    border-radius: 15px;
 
 }
 
