@@ -5,24 +5,26 @@ h1{
 }
 
 body{
-    background-color: #513D7A;
+    background-image: url(imagem/fundoindex.svg);
+    background-size: 100%;
     font-family: 'Arimo', sans-serif;
     color:aliceblue;
-    margin: 00px;
+    margin: 0px;
 }
 
 .logo{
-    background-color: #350C52;
+    background-color: #05250a;
     width: 100%;
     display: flex;
     justify-content: center;
 }
 .navcontainer{
     width: 100%;
-    background-color: #350C52;
+    background-color: #24193b;
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100px;
 }
 .navlogo{
     display: flex;
@@ -30,8 +32,9 @@ body{
     justify-content: center;
 }
 .navlogo img{
-    width: 200px;
-    height: 200px;
+    width: 20vw;
+    height: 20vh;
+    margin-top: 7vh;
 }
 .navlinks{
     display: flex;
@@ -43,20 +46,18 @@ body{
 
 .navlinks a:hover{
 	transition: .4s ease-in-out;
-    opacity: 0.2;
-	
+    box-shadow: inset 0px -3px 0px 0px #513D7A;
+    color: #5a4488;
 }
 
-
 a{
-	background: #6A5ACD; 
-    border-radius: 6px;  
 	padding: 15px; 
 	cursor: pointer; 
 	color: #fff;
 	border: none; 
 	font-size: 16px;
 	text-decoration: none;
+    color:#ffffff;
 }
 
 .diaum{
