@@ -5,8 +5,7 @@ h1{
 }
 
 body{
-    background-image: url(imagem/fundoindex.svg);
-    background-size: 100%;
+    background-color: #513D7A;
     font-family: 'Arimo', sans-serif;
     color:aliceblue;
     margin: 0px;

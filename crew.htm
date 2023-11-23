@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>RYANO CONTEST CREW</title>
+    <title>CADASTRO CREW'S</title>
     <link rel="stylesheet" href="cadastro.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,8 +24,9 @@
     <div class="navcontainer">
 
         <div class="navlinks">
-            <a href="index.htm">INSCRIÇÕES RCC</a>
-            <a href="cadastro.htm"> CADASTRO </a>
+            <a href="index.htm">INSCRIÇÕES CREW'S</a>
+            <a href="cadastro.htm">
+                CADASTRO </a>
 
         </div>
 
@@ -46,18 +47,18 @@
 
 
     <div class="container">
-        <form action="cadastro_pessoa.php" method="post">
+        <form action="cadastro_crew.php" method="post">
 
-            <h2>Cadastro</h2>
+            <h2>Crie sua Crew</h2>
 
             <div class="field_input">
-                <p>Nome:</p>
-                <input type="text" name="nome" placeholder="Digite seu nome">
+                <p>Nome da Crew:</p>
+                <input type="text" name="nomeCrew" placeholder="Digite o nome">
             </div>
 
             <div class="field_input">
-                <p>Telefone:</p>
-                <input type="text" name="telefone" placeholder="Digite seu telefone">
+                <p>Quantidade de Participantes:</p>
+                <input type="text" name="qtdParticipantes" placeholder="Digite a quantidade">
             </div>
 
             <div class="field_input">
@@ -67,13 +68,8 @@
             </div>
 
             <div class="field_input">
-                <p>Data de nascimento:</p>
-                <input type="date" name="dn" placeholder="Ano-mês-dia">
-            </div>
-
-            <div class="field_input">
-                <p>CPF:</p>
-                <input type="text" name="cpf" placeholder="Digite seu CPF">
+                <p>Cidade:</p>
+                <input type="text" name="cidade" placeholder="Digite sua cidade">
             </div>
 
             <div class="btn">
