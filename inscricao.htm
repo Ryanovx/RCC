@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CADASTRO CREW'S</title>
+    <link rel="stylesheet" href="cadastro.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/pixo-reto-sp" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Inconsolata:wght@500&display=swap"
+        rel="stylesheet">
+        <meta charset="utf-8">
+
+</head>
+
+<body>
+
+    <div class="navcontainer">
+
+        <div class="navlinks">
+            <a href="index.htm">INSCRIÇÕES CREW'S</a>
+            <a href="cadastro.htm">
+                CADASTRO </a>
+
+        </div>
+
+        <a href="index.htm">
+        <div class="navlogo">
+            <img src="imagem/logo.png">
+        </div>
+        </a>
+
+        <div class="navlinks">
+            <a href="crew.htm">CREW'S</a>
+            <a href="home.htm">LOJA</a>
+        </div>
+
+
+    </div>
+
+
+
+    <div class="container">
+        <form action="cadastro_inscricao.php" method="post">
+
+            <h2>Crie sua Crew</h2>
+
+            <div class="field_input">
+                <p>Nome da Crew:</p>
+                <input type="text" name="nome" placeholder="Digite o nome">
+            </div>
+
+             <div class="field_input">
+                <p>Sexo:</p>
+                <input type="radio" name="sexo" value="Feminino">Feminino
+                <input type="radio" name="sexo" value="Masculino">Masculino
+            </div>
+
+           <select name="dia">
+            <option name="dia" value="diaum">
+                Dia 1
+            </option>
+            <option name="dia" value="diadois">
+                Dia 2
+            </option>
+            <option name="dia" value="diatres">
+                Dia 3
+            </option>
+           </select>
+
+           <div class="field_input">
+            <p>Método de pagamento:</p>
+            <input type="radio" name="mp" value="Credito">Crédito
+            <input type="radio" name="mp" value="Debito">Débito
+            <input type="radio" name="mp" value="pix">Pix
+        </div>
+            <div class="btn">
+                <input type="submit" value="Cadastrar">
+                <input type="reset" value="Limpar">
+            </div>
+        
+
+        </form>
+    </div>
+
+    <div class="navlinks">
+        <a href="listar_inscricoes.htm">Listar Inscrições</a>
+        <a href="listar_cadastro.php"> Lista Cadastros </a>
+        <a href="listar_crew.php"> Lista Crews </a>
+        
+    </div>
+
+</body>
+
+</html>
