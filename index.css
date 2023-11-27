@@ -9,6 +9,12 @@ body{
     font-family: 'Arimo', sans-serif;
     color:aliceblue;
     margin: 0px;
+    background-image: url(imagem/fundoindex.png);
+}
+
+body img{
+
+margin: 0%;
 }
 
 .logo{
@@ -91,6 +97,25 @@ a{
 }
 
 .caixote{
+	font-family: 'Creepster', sans-serif;
+	font-size: 25px;
+}
+
+.diatres{
+	color: E3DAEA(209, 124, 14);
+    font-family: 'Creepster', sans-serif;
+    font-size: 55px;
+	text-align: center;
+	border-top: 20px;
+}
+
+.diatres img{
+	width: 600px;
+    height: 450px;
+	border-radius: 20px;
+}
+
+.corrimao{
 	font-family: 'Creepster', sans-serif;
 	font-size: 25px;
 }
